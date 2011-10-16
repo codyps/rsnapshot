@@ -1490,7 +1490,7 @@ sub validate_config_file {
 				}
 				print_err ("rsnapshot refuses to create snapshot_root when no_create_root is enabled", 1);
 				syslog_err("rsnapshot refuses to create snapshot_root when no_create_root is enabled");
-				exit(1);
+				exit(11);
 			}
 		}
 	}
