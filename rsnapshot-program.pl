@@ -3243,7 +3243,7 @@ sub rotate_lowest_snapshots {
 				if (0 == $test) {
 					$result = cp_al(
 						"$config_vars{'snapshot_root'}/$interval.0/",
-						"$config_vars{'snapshot_root'}/$interval.1/"
+						"$config_vars{'snapshot_root'}/$interval.1"
 					);
 					if (! $result) {
 						my $errstr = '';
